@@ -1,6 +1,9 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
+// Components
+import { Home } from './components';
+
 const SiteRoutes = () => {
   return (
     <Switch>
@@ -8,7 +11,7 @@ const SiteRoutes = () => {
       <Route path='/contact' />
       <Route path='/about' />
       <Route path='/careers' />
-      <Route path='/' />
+      <Route path='/' component={Home} />
     </Switch>
   )
 }

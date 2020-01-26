@@ -1,1 +1,1 @@
-export { Header } from './Navigation/Header'
+export { Home } from './Home';
